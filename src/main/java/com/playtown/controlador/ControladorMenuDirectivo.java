@@ -19,7 +19,7 @@ import java.util.Map;
 @CrossOrigin(origins = "http://localhost:8080/")
 public class ControladorMenuDirectivo {
 
-    public static final Logger logger = LoggerFactory.getLogger(ControladorDirectivo.class);
+    public static final Logger logger = LoggerFactory.getLogger(ControladorMenuDirectivo.class);
 
     @Autowired
     private ServicioMenuDirectivo servicioMenuDirectivo;
